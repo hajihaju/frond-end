@@ -1,0 +1,71 @@
+.bebe-ul li {
+  display:inline-block;
+  padding: 10px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.bebe-ul li a{
+  color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.bebe-ul {
+  padding: 5px;
+  margin: 0;
+  background: skyblue;
+}
+
+.Footer-ul {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background: skyblue;
+}
+
+.Register{
+  margin-left: 30%;
+}
+
+.InputBox{
+  display: block;
+    padding: 5px;
+    width: 300px;
+    border: 1px solid rgb(59, 57, 61);
+}
+.AppButton{
+  margin-left: 10px;
+    padding: 5px;
+    width: 111px;
+    background-color: pink;
+    border: 1px solid;
+    cursor: pointer;
+}
+.App-header {
+  background-color: #4ece34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
